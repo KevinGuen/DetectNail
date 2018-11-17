@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Android.mk",
+    "D:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Users\\Earlybro_DaeGuen\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/ArHand(0308)/Nail_0116_2/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "native-lib-release-x86": {
+      "buildCommand": "D:\\Users\\Earlybro_DaeGuen\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/ArHand(0308)/Nail_0116_2/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\ArHand(0308)\\Nail_0116_2\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/ArHand(0308)/Nail_0116_2/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\ArHand(0308)\\Nail_0116_2\\app\\src\\main\\jni\\main.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-IC:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-IC:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include\" \"-ID:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-ID:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include\" \"-ID:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-ID:/ArHand(0308)/Nail_0116_2/app/src/main/jni\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"D:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"D:/Users/Earlybro_DaeGuen/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "D:\\ArHand(0308)\\Nail_0116_2\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "D:\\Users\\Earlybro_DaeGuen\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

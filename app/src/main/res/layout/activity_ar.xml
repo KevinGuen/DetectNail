@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/handform"
+
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/captureView"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY"
+        />
+
+
+    <ImageView
+        android:id="@+id/finger4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naitest"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/finger5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naitest"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/finger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naitest"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/finger2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naitest"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/finger3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naitest"
+        android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/introView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="Changeview"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            >
+
+         <!--   <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/header_icon_arrow_white"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:onClick="goBack"
+                />-->
+
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header_icon_refresh"
+
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="Changeview"
+                />
+            <!--<TextView
+                android:id="@+id/nailshopname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header_icon_heart"
+                android:layout_toLeftOf="@+id/filter"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header_icon_filter2"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                />-->
+
+        </RelativeLayout>
+
+     <!--   <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center|right"
+            >
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+
+                android:id="@+id/mySeekBar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:splitTrack="false"
+                android:thumb="@drawable/nail_detail_light_on"
+                android:progressTint="@color/white"
+
+                /> &lt;!&ndash; Rotation: CW90 or CW270 &ndash;&gt;
+
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="vertical"
+            >
+
+
+
+            <Button
+                android:id="@+id/cmnbt"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nail_detail_camera"
+                android:onClick="CaptureBt"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <Button
+                android:id="@+id/saveBt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nail_detail_down"
+                android:onClick="saveFrame"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <HorizontalScrollView
+                android:id="@+id/horizonCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#44000000"
+                >
+
+                <LinearLayout
+                    android:id="@+id/horizonView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    </FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\ArHand(0308)\Nail_0116_2\openCVLibrary330\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6199acdb028fb5b54ab89da75f256d8dfd94d221">
+        <dex dex="D:\ArHand(0308)\Nail_0116_2\app\build\intermediates\pre-dexed\debug\classes_4a4ed1ae297bbd007f6b233ee6ad82aea9e00d66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Watjew\Android\Nail_0116\openCVLibrary330\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6199acdb028fb5b54ab89da75f256d8dfd94d221">
+        <dex dex="D:\Watjew\Android\Nail_0116\app\build\intermediates\pre-dexed\debug\classes_5e7e668fff13d723c59eb2ded31ff286e467a279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Watjew\Android\Nail_0116_2\openCVLibrary330\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6199acdb028fb5b54ab89da75f256d8dfd94d221">
+        <dex dex="D:\Watjew\Android\Nail_0116_2\app\build\intermediates\pre-dexed\debug\classes_cc57c6c4e620fbb21c39a3332a2f87bdcf1baa30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Earlybro_DaeGuen\.android\build-cache\96f0af67380516ade767f2fc690f53eac8a8a801\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\Watjew\Android\Nail_0116_2\app\build\intermediates\pre-dexed\debug\classes_8f568d1b2307894663028a610a842acd84778b5b.jar" />
+    </item>
+
+</items>
