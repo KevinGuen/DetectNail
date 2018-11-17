@@ -14,7 +14,7 @@
 
     <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/111424.png"/> 
     <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/154828.png"/>
-    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/154828.png"/>
-    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/154828.png"/>
-    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/154828.png"/>
+    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/1529309512705.jpg"/>
+    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/1532673755777.jpg"/>
+    <img width = "200" src = "https://github.com/KevinGuen/DetectNail/blob/master/1542075216241.jpg"/>
  
